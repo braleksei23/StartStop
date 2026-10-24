@@ -1,10 +1,10 @@
 {
   "app": {
-    "version": "15.1",
-    "code": 22,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.1/Avtozapusk_15.1.apk",
-    "sha256": "bc333adb74a8bdbbda7f9d57537483dd4820c06750ec8ccc4a6295a12270e7e4",
-    "size": 17402575
+    "version": "15.2",
+    "code": 23,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.2/Avtozapusk_15.2.apk",
+    "sha256": "1f5c7c76d0b2b14f73ab136afe6028451ec2a140f678e8134dc902f08a2b1a21",
+    "size": 17405163
   },
   "firmware": {
     "version": "15.1",
@@ -21,5 +21,5 @@
       "size": 714240
     }
   },
-  "notes": "Открытие при приближении — отдельно для каждого телефона; ответы на команды приходят только своему телефону; после смены ключа остальные телефоны отключаются."
+  "notes": "Приложение 15.2: подключается к машине автоматически при запуске (выключается в Настройках → «Связь с машиной»). Прошивка 15.1: открытие при приближении — отдельно для каждого телефона."
 }
