@@ -1,10 +1,10 @@
 {
   "app": {
-    "version": "16.2",
-    "code": 25,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.2/Avtozapusk_16.2.apk",
-    "sha256": "6190678228b85e775493267c8d0401ea5cb344cc6df44357be03153f27f52d23",
-    "size": 12269873
+    "version": "16.3",
+    "code": 26,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.3/Avtozapusk_16.3.apk",
+    "sha256": "0553993d593397851b13edcf370a7249beddde75c09d43019453a33d84f4663c",
+    "size": 12279245
   },
   "firmware": {
     "version": "16.1",
@@ -21,5 +21,5 @@
       "size": 714592
     }
   },
-  "notes": "Приложение 16.2: фоновое подключение к машине — машина открывается при подходе и не закрывается сама, даже если экран телефона выключен. Встроена прошивка 16.1."
+  "notes": "Приложение 16.3: слайдер замка вместо кнопок, причина отказа в запуске, QR-код для скачивания приложения, кнопки без мерцания. Прошивка 16.1."
 }
