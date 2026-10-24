@@ -1,0 +1,25 @@
+{
+  "app": {
+    "version": "15.0",
+    "code": 21,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.0/Avtozapusk_15.0.apk",
+    "sha256": "8498b3a83f4d0d00bfbf92652274e31a2245aecc9076bba83f944769267ad33c",
+    "size": 17420087
+  },
+  "firmware": {
+    "version": "15.0",
+    "major": 15,
+    "minor": 0,
+    "xiao_c3": {
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.0/firmware_15.0_xiao_c3.bin",
+      "sha256": "931a6c1375f0802ae584d69d5a9fe08c13cb6eb85a9cbf396db7018d42167595",
+      "size": 729680
+    },
+    "esp32s3": {
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.0/firmware_15.0_esp32s3.bin",
+      "sha256": "2cf63b3ad1d1f486ced71803b72db37cddc9318ebeb68cf156829c6f57f971d5",
+      "size": 712368
+    }
+  },
+  "notes": "До 3 телефонов одновременно, дальний режим Bluetooth, обновления с GitHub, отключение приложения в фоне."
+}
