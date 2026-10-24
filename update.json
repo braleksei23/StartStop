@@ -1,10 +1,10 @@
 {
   "app": {
-    "version": "15.0",
-    "code": 21,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.0/Avtozapusk_15.0.apk",
-    "sha256": "8498b3a83f4d0d00bfbf92652274e31a2245aecc9076bba83f944769267ad33c",
-    "size": 17420087
+    "version": "15.1",
+    "code": 22,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.1/Avtozapusk_15.1.apk",
+    "sha256": "bc333adb74a8bdbbda7f9d57537483dd4820c06750ec8ccc4a6295a12270e7e4",
+    "size": 17402575
   },
   "firmware": {
     "version": "15.0",
@@ -21,5 +21,5 @@
       "size": 712368
     }
   },
-  "notes": "До 3 телефонов одновременно, дальний режим Bluetooth, обновления с GitHub, отключение приложения в фоне."
+  "notes": "Открытие при приближении — отдельно для каждого телефона (нужна прошивка 15.1); ответы на команды приходят только своему телефону."
 }
