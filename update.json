@@ -7,19 +7,19 @@
     "size": 12257061
   },
   "firmware": {
-    "version": "16.0",
+    "version": "16.1",
     "major": 16,
-    "minor": 0,
+    "minor": 1,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.0/firmware_16.0_xiao_c3.bin",
-      "sha256": "ea33732cdac3a9da9d898940ed5437e590a9d1c38a8a3ba3862286c22e7a23e3",
-      "size": 731536
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.1/firmware_16.1_xiao_c3.bin",
+      "sha256": "609f5744d503969221cbe3b1855d7edc1f8920a98efad161f1d9b0c7b219fc6f",
+      "size": 731984
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.0/firmware_16.0_esp32s3.bin",
-      "sha256": "e5c5d24f0192df8807f79019a7ff0594e3beedc9430345d6be135c916ff30791",
-      "size": 714176
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.1/firmware_16.1_esp32s3.bin",
+      "sha256": "e7a58bc419e319a17ba285c30cc469e4f586a095f858a323c47fa76e2d0f9ec2",
+      "size": 714592
     }
   },
-  "notes": "Релиз 16.0: финальная сборка приложения (release, меньше размер) и прошивки для обеих плат. Включает всё из 15.x: до 3 телефонов, открытие при приближении для каждого телефона отдельно, автоподключение при запуске."
+  "notes": "Прошивка 16.1: машина больше не закрывается сама, когда у телефона выключен экран (маячок спящего телефона принимается, пока слышен без перерыва). Приложение 16.0."
 }
