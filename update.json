@@ -1,25 +1,25 @@
 {
   "app": {
-    "version": "16.3",
-    "code": 26,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.3/Avtozapusk_16.3.apk",
-    "sha256": "0553993d593397851b13edcf370a7249beddde75c09d43019453a33d84f4663c",
-    "size": 12279245
+    "version": "16.5",
+    "code": 27,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.5/Avtozapusk_16.5.apk",
+    "sha256": "cd243529ac71476846ae1ee38e8b48c85f57d7af6e2eae3d3b229fdbcdd76574",
+    "size": 12279641
   },
   "firmware": {
-    "version": "16.1",
+    "version": "16.5",
     "major": 16,
-    "minor": 1,
+    "minor": 5,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.1/firmware_16.1_xiao_c3.bin",
-      "sha256": "609f5744d503969221cbe3b1855d7edc1f8920a98efad161f1d9b0c7b219fc6f",
-      "size": 731984
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.5/firmware_16.5_xiao_c3.bin",
+      "sha256": "f01b9cf1655134d2abff882f24c70747447b2372e5fbdfab35444e0e5360142d",
+      "size": 732400
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.1/firmware_16.1_esp32s3.bin",
-      "sha256": "e7a58bc419e319a17ba285c30cc469e4f586a095f858a323c47fa76e2d0f9ec2",
-      "size": 714592
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.5/firmware_16.5_esp32s3.bin",
+      "sha256": "54cce58d635a56b3caa2f6df890c7fb7a93c623d870f330ed0f9a613c8e859f5",
+      "size": 715008
     }
   },
-  "notes": "Приложение 16.3: слайдер замка вместо кнопок, причина отказа в запуске, QR-код для скачивания приложения, кнопки без мерцания. Прошивка 16.1."
+  "notes": "16.5: ушли от машины с работающим двигателем — если дверь не открывали, машина запирается; если открывали — ждёт выключения зажигания. Таймер автоотключения отменяется, когда открыли дверь, а не при подходе. Приложение показывает, чего ждёт замок."
 }
