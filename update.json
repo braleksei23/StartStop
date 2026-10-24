@@ -1,25 +1,25 @@
 {
   "app": {
-    "version": "15.2",
-    "code": 23,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.2/Avtozapusk_15.2.apk",
-    "sha256": "1f5c7c76d0b2b14f73ab136afe6028451ec2a140f678e8134dc902f08a2b1a21",
-    "size": 17405163
+    "version": "16.0",
+    "code": 24,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.0/Avtozapusk_16.0.apk",
+    "sha256": "2fc15167417217b41c65b38728cab3ac0aae0563c61289d15b29de23030d6e8f",
+    "size": 12257061
   },
   "firmware": {
-    "version": "15.1",
-    "major": 15,
-    "minor": 1,
+    "version": "16.0",
+    "major": 16,
+    "minor": 0,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.1/firmware_15.1_xiao_c3.bin",
-      "sha256": "4083334a7a77076e15fe1e51894cbf988ecc68759dbdc226dce364303fa6c654",
-      "size": 731600
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.0/firmware_16.0_xiao_c3.bin",
+      "sha256": "ea33732cdac3a9da9d898940ed5437e590a9d1c38a8a3ba3862286c22e7a23e3",
+      "size": 731536
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/15.1/firmware_15.1_esp32s3.bin",
-      "sha256": "e0911c7a572bd32035d4d5e40e9207906f9bb5e16ea0b2ebeb885d0b9d12be30",
-      "size": 714240
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.0/firmware_16.0_esp32s3.bin",
+      "sha256": "e5c5d24f0192df8807f79019a7ff0594e3beedc9430345d6be135c916ff30791",
+      "size": 714176
     }
   },
-  "notes": "Приложение 15.2: подключается к машине автоматически при запуске (выключается в Настройках → «Связь с машиной»). Прошивка 15.1: открытие при приближении — отдельно для каждого телефона."
+  "notes": "Релиз 16.0: финальная сборка приложения (release, меньше размер) и прошивки для обеих плат. Включает всё из 15.x: до 3 телефонов, открытие при приближении для каждого телефона отдельно, автоподключение при запуске."
 }
