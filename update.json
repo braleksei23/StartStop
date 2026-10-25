@@ -1,25 +1,25 @@
 {
   "app": {
-    "version": "17.0",
-    "code": 33,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.0/Avtozapusk_17.0.apk",
-    "sha256": "504969dbe78f62aeed9576f9dc97b7ca4144a7c3694a3d54f65861b933014fb1",
-    "size": 12313754
+    "version": "17.1",
+    "code": 34,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.1/Avtozapusk_17.1.apk",
+    "sha256": "f00b6ad78b89632026a674856b273955e6b1dd9d90c1a647d7677969ba510d95",
+    "size": 12317962
   },
   "firmware": {
-    "version": "16.5",
-    "major": 16,
-    "minor": 5,
+    "version": "17.1",
+    "major": 17,
+    "minor": 1,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.5/firmware_16.5_xiao_c3.bin",
-      "sha256": "f01b9cf1655134d2abff882f24c70747447b2372e5fbdfab35444e0e5360142d",
-      "size": 732400
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.1/firmware_17.1_xiao_c3.bin",
+      "sha256": "363512bd7ba7fb008e79a4c12f9bfa6dbe11096cc800109fa8c8e4f1b8371880",
+      "size": 734048
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/16.5/firmware_16.5_esp32s3.bin",
-      "sha256": "54cce58d635a56b3caa2f6df890c7fb7a93c623d870f330ed0f9a613c8e859f5",
-      "size": 715008
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.1/firmware_17.1_esp32s3.bin",
+      "sha256": "e2417d87e7bf84011ca7eef11dc6cf5bb4038054f02e889a21498711be038dc9",
+      "size": 716512
     }
   },
-  "notes": "Приложение 17.0: сборка на новых инструментах (Java 25, Gradle 9.6, Android Gradle Plugin 9.4.1, Kotlin 2.4). Значок ручника: зелёный и когда затянут, и когда опущен; жёлтый при несовпадении; красный 10 секунд, если запуск не состоялся из-за ручника. Прошивка 16.5."
+  "notes": "17.1: кнопка в машине срабатывает на выбор — от массы или от +3.3 В; тип светодиода — адресный WS2812 или обычный (на выводе появляется масса, когда телефон в радиусе открытия машины — запуск разрешён). Настройки: Сервис → «Запуск» → «Кнопка в машине» и «Светодиод». Сначала обновите приложение, потом плату."
 }
