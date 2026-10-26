@@ -7,19 +7,19 @@
     "size": 12366662
   },
   "firmware": {
-    "version": "17.2",
+    "version": "17.3",
     "major": 17,
-    "minor": 2,
+    "minor": 3,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.2/firmware_17.2_xiao_c3.bin",
-      "sha256": "5df367ef4481d4e19647ec1685051405dab1c264efda041645ebed255412e62b",
-      "size": 742512
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.3/firmware_17.3_xiao_c3.bin",
+      "sha256": "579329c6e5a15984f3991c53486367a607bbb6eae0acb80ad85b115e31399a8e",
+      "size": 741488
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.2/firmware_17.2_esp32s3.bin",
-      "sha256": "bdb375f2719a980c6c24f31b1f85bfc4c752d1c2756e79b966491bc7e59c49a6",
-      "size": 723760
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.3/firmware_17.3_esp32s3.bin",
+      "sha256": "35ad1f9f1beed7c02bbfaa37bdbaa4733ce6450c88c916d5310b3f19aa4303ae",
+      "size": 722880
     }
   },
-  "notes": "Приложение 17.3: «Терминал» читается лучше — ярче и контрастнее, без свечения букв, полужирный шрифт; убрана полоса «падающих символов»; размер шрифта (A− / A+) запоминается. Прошивка 17.2."
+  "notes": "Прошивка 17.3: в мониторе порта и «Терминале» у событий «тип светодиода сохранён» и «диагностика: команда выполнена» теперь есть названия (раньше — «неизвестное», коды 50 и 51). Приложение 17.3."
 }
