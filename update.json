@@ -1,25 +1,25 @@
 {
   "app": {
-    "version": "17.1",
-    "code": 34,
-    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.1/Avtozapusk_17.1.apk",
-    "sha256": "f00b6ad78b89632026a674856b273955e6b1dd9d90c1a647d7677969ba510d95",
-    "size": 12317962
+    "version": "17.2",
+    "code": 35,
+    "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.2/Avtozapusk_17.2.apk",
+    "sha256": "77b076b26e4040f4e9853f0fd17eba3d36449ea8c4de5d81a35902cd2e630353",
+    "size": 12370094
   },
   "firmware": {
-    "version": "17.1",
+    "version": "17.2",
     "major": 17,
-    "minor": 1,
+    "minor": 2,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.1/firmware_17.1_xiao_c3.bin",
-      "sha256": "363512bd7ba7fb008e79a4c12f9bfa6dbe11096cc800109fa8c8e4f1b8371880",
-      "size": 734048
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.2/firmware_17.2_xiao_c3.bin",
+      "sha256": "5df367ef4481d4e19647ec1685051405dab1c264efda041645ebed255412e62b",
+      "size": 742512
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.1/firmware_17.1_esp32s3.bin",
-      "sha256": "e2417d87e7bf84011ca7eef11dc6cf5bb4038054f02e889a21498711be038dc9",
-      "size": 716512
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.2/firmware_17.2_esp32s3.bin",
+      "sha256": "bdb375f2719a980c6c24f31b1f85bfc4c752d1c2756e79b966491bc7e59c49a6",
+      "size": 723760
     }
   },
-  "notes": "17.1: кнопка в машине срабатывает на выбор — от массы или от +3.3 В; тип светодиода — адресный WS2812 или обычный (на выводе появляется масса, когда телефон в радиусе открытия машины — запуск разрешён). Настройки: Сервис → «Запуск» → «Кнопка в машине» и «Светодиод». Сначала обновите приложение, потом плату."
+  "notes": "17.2: вкладка «Терминал» в сервисных настройках — журнал платы и телефона, режим диагностики (плата копит подробный журнал, даже когда телефона нет рядом), живые значения, сохранение журнала в файл; свой звук уведомлений «Звук Автозапуска» (можно вернуть стандартный); при первой установке — демо-режим; машина вращается медленнее. Сначала обновите приложение, потом плату."
 }
