@@ -7,19 +7,19 @@
     "size": 12366766
   },
   "firmware": {
-    "version": "17.3",
+    "version": "17.4",
     "major": 17,
-    "minor": 3,
+    "minor": 4,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.3/firmware_17.3_xiao_c3.bin",
-      "sha256": "579329c6e5a15984f3991c53486367a607bbb6eae0acb80ad85b115e31399a8e",
-      "size": 741488
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.4/firmware_17.4_xiao_c3.bin",
+      "sha256": "9530401c6b070a202fcb0fbcf183f19ce61da375edcb47b57b328c607be0a71a",
+      "size": 741872
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.3/firmware_17.3_esp32s3.bin",
-      "sha256": "35ad1f9f1beed7c02bbfaa37bdbaa4733ce6450c88c916d5310b3f19aa4303ae",
-      "size": 722880
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.4/firmware_17.4_esp32s3.bin",
+      "sha256": "1f758a2f70ba44f51d459eef2aba94d043d707da95f0797b5333ddfd9bb6b622",
+      "size": 723200
     }
   },
-  "notes": "Приложение 17.4: настройки без повторов — один журнал («Сервис → Терминал», там же «Пинг»); «Связь» — подключение, маячок и фоновое подключение в одной карточке; «О программе и обновления» — версии, обновление приложения и платы одной кнопкой, QR для скачивания; «Добавить телефон» в доверенных — приложение и ключ по шагам; открытие при приближении — переключатель у этого телефона в списке; порог разряда АКБ — в «Сервис → Реле». Встроена прошивка 17.3."
+  "notes": "Прошивка 17.4: датчик багажника — обратный смысл входа: при выборе «получает +3.3 В» теперь +3.3 В — багажник закрыт, 0 В — открыт (подтяжка к массе прежняя). Приложение 17.4."
 }
