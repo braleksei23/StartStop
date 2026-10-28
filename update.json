@@ -7,19 +7,19 @@
     "size": 12366766
   },
   "firmware": {
-    "version": "17.4",
+    "version": "17.5",
     "major": 17,
-    "minor": 4,
+    "minor": 5,
     "xiao_c3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.4/firmware_17.4_xiao_c3.bin",
-      "sha256": "9530401c6b070a202fcb0fbcf183f19ce61da375edcb47b57b328c607be0a71a",
-      "size": 741872
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.5/firmware_17.5_xiao_c3.bin",
+      "sha256": "f59a263dc23bb997009b9a5f261913131325d15c48e4d61ce1bab51f110d6dc0",
+      "size": 743536
     },
     "esp32s3": {
-      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.4/firmware_17.4_esp32s3.bin",
-      "sha256": "1f758a2f70ba44f51d459eef2aba94d043d707da95f0797b5333ddfd9bb6b622",
-      "size": 723200
+      "url": "https://raw.githubusercontent.com/braleksei23/StartStop/main/releases/17.5/firmware_17.5_esp32s3.bin",
+      "sha256": "7b288e5fca5dfbc6da4c1e5012a42c995d040e06d0c77c738e0b277d53352d14",
+      "size": 724608
     }
   },
-  "notes": "Прошивка 17.4: датчик багажника — обратный смысл входа: при выборе «получает +3.3 В» теперь +3.3 В — багажник закрыт, 0 В — открыт (подтяжка к массе прежняя). Приложение 17.4."
+  "notes": "Прошивка 17.5: двигатель, заведённый из приложения, глохнет при нажатии тормоза, пока не сделана «пересадка» — короткое нажатие кнопки в машине с доверенным телефоном рядом; пересадка также отменяет таймер автоотключения. Приложение 17.4."
 }
